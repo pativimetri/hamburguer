@@ -95,3 +95,25 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
+button  {
+    padding: 20px;
+    display: block;
+    margin: auto;
+    background-color: #3A2418;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #F2A900;
+    
+    font-size: 1.1em;
+
+}
+
+button:hover {
+        background-color: #C93B2B;
+
+}
