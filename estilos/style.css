@@ -30,7 +30,7 @@ header {
     text-align: center;
 }
 
-header h1 {
+header h1 a {
     margin-top: 20px;
      padding: 5px;
       font-family: 'BurgerFree', sans-serif;
