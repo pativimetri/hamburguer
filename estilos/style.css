@@ -33,7 +33,7 @@ header {
 header h1 {
      padding: 10px;
       font-family: 'BurgerFree', sans-serif;
-      font-size: 1em;
+      font-size: 90%;
       color: #F2A900;
       font-weight: normal;
 }
