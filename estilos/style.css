@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/*
+#C93B2B - vermelho
+#F2A900 - amarelo
+#3A2418 - marrom
+*/
+
+@font-face {
+    font-family: 'BurgerFree';
+    src: url('../fonts/BurgerFree.ttf') format('truetype');
+}
+@font-face {
+     font-family: 'matcha';
+    src: url('../fonts/matcha.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+    background-color: #3A2418;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+     padding: 20px;
+      font-family: 'BurgerFree', sans-serif;
+      font-size: 4em;
+      color: #F2A900;
+      font-weight: normal;
+}
+
+.material-symbols-outlined {
+    color: #f1ca6d;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+.material-symbols-outlined:hover{
+    color: #f1ca6d;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #f1ca6d;
+    color: #3A2418;
+    font-weight: bold;
+    border-top: 2px solid #3A2418;
+}
+
+menu a:hover{
+    background-color: #b93c3c;
+    color: white;
+}
+
+main{
+    width: 90vw;
+    background-color: #f7e1b0;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+article > h2{
+    color: #C93B2B;
+    padding-bottom: 20px;
+    font-family: 'matcha', sans-serif;
+    font-weight: normal;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
